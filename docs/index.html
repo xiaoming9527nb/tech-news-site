@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Daily - 科技新闻日报</title>
+    <meta name="description" content="每日科技新闻精选：人工智能、半导体、汽车电子、嵌入式、消费电子">
+    <link rel="alternate" type="application/rss+xml" title="Tech Daily RSS" href="/feed.xml">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#128225;</text></svg>">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo">
+                <span class="logo-icon">&#128225;</span>
+                <span>Tech Daily</span>
+            </a>
+            <div class="nav-links">
+                <a href="#" class="nav-link active" data-category="all">全部</a>
+                <a href="#" class="nav-link" data-category="ai">AI</a>
+                <a href="#" class="nav-link" data-category="auto">汽车</a>
+                <a href="#" class="nav-link" data-category="chip">半导体</a>
+                <a href="#" class="nav-link" data-category="embedded">嵌入式</a>
+                <a href="#" class="nav-link" data-category="consumer">消费电子</a>
+            </div>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="搜索新闻...">
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <header class="page-header">
+                <h1>科技新闻日报</h1>
+                <p class="date" id="currentDate"></p>
+            </header>
+
+            <section class="highlights">
+                <h2 class="section-title">今日要闻</h2>
+                <div class="highlight-grid" id="highlightGrid">
+                    <!-- Highlights will be loaded here -->
+                </div>
+            </section>
+
+            <section class="news-section">
+                <h2 class="section-title">分领域新闻</h2>
+                <div class="news-grid" id="newsGrid">
+                    <!-- News cards will be loaded here -->
+                </div>
+            </section>
+
+            <section class="subscribe-section">
+                <div class="subscribe-card">
+                    <h3>订阅每日推送</h3>
+                    <p>每天早上 8:00 收到科技新闻精选</p>
+                    <form id="subscribeForm" class="subscribe-form">
+                        <input type="email" id="emailInput" placeholder="your@email.com" required>
+                        <button type="submit">订阅</button>
+                    </form>
+                    <p class="subscribe-note">我们尊重您的隐私，绝不发送垃圾邮件</p>
+                </div>
+            </section>
+
+            <section class="archive-section">
+                <h2 class="section-title">历史存档</h2>
+                <div class="archive-list" id="archiveList">
+                    <!-- Archive links will be loaded here -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">&#128225;</span>
+                    <span>Tech Daily</span>
+                </div>
+                <div class="footer-links">
+                    <a href="/feed.xml">RSS 订阅</a>
+                    <a href="https://github.com/your-username/tech-news-site">GitHub</a>
+                </div>
+                <p class="footer-note">Powered by Claude Code | Auto-generated daily</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/news-data.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

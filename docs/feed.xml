@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech Daily - 科技新闻日报</title>
+    <description>每日科技新闻精选：人工智能、半导体、汽车电子、嵌入式、消费电子</description>
+    <link>https://your-username.github.io/tech-news-site/</link>
+    <atom:link href="https://your-username.github.io/tech-news-site/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 08 Apr 2026 08:00:00 +0800</lastBuildDate>
+
+    <item>
+      <title>半导体涨价潮席卷全球，超50家厂商发布涨价通知</title>
+      <link>https://finance.sina.com.cn/roll/2026-04-01/doc-inhsywsq2628598.shtml</link>
+      <description>2026年一季度，全球半导体行业迎来史上罕见的全产业链涨价潮，部分品类涨幅超100%。AI算力需求爆发与成本压力上升是主因。</description>
+      <pubDate>Tue, 08 Apr 2026 08:00:00 +0800</pubDate>
+      <category>半导体</category>
+    </item>
+
+    <item>
+      <title>L3自动驾驶元年开启，长安深蓝、北汽极狐获首批准入</title>
+      <link>http://www.news.cn/20260122/a8ed93ac53ae4b8bac0f59adf3af34a4/c.html</link>
+      <description>工信部正式公布首批L3级车型准入许可，2026年成为L3自动驾驶商业化元年。</description>
+      <pubDate>Tue, 08 Apr 2026 08:00:00 +0800</pubDate>
+      <category>汽车</category>
+    </item>
+
+    <item>
+      <title>中国日均Token调用量突破140万亿，增长超千倍</title>
+      <link>https://www.news.cn/20260128/3b2f11906fd74ca397fef9996c805a60/c.html</link>
+      <description>英伟达GTC大会后，"Token工厂"概念火爆。中国有望成为"世界Token工厂"。</description>
+      <pubDate>Tue, 08 Apr 2026 08:00:00 +0800</pubDate>
+      <category>人工智能</category>
+    </item>
+
+    <item>
+      <title>具身智能机器人正式"上岗"，进入养老康复领域</title>
+      <link>https://www.chinanews.com.cn/sh/2026/04-06/10599344.shtml</link>
+      <description>北京经开区已部署按摩、灸疗、外骨骼等康养机器人，"具身智能"被列入政府工作报告。</description>
+      <pubDate>Tue, 08 Apr 2026 08:00:00 +0800</pubDate>
+      <category>人工智能</category>
+    </item>
+  </channel>
+</rss>
